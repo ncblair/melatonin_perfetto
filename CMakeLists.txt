@@ -20,7 +20,7 @@ if(MelatoninPerfetto_IS_TOP_LEVEL)
         GIT_TAG origin/master
         GIT_SHALLOW TRUE
         GIT_PROGRESS TRUE
-        FIND_PACKAGE_ARGS 7.0.3)
+        FIND_PACKAGE_ARGS 7.0.9)
 
     FetchContent_MakeAvailable(JUCE)
 endif()
@@ -42,7 +42,7 @@ if(PERFETTO)
 
     FetchContent_Declare(Perfetto
         GIT_REPOSITORY https://android.googlesource.com/platform/external/perfetto
-        GIT_TAG v33.1
+        GIT_TAG v41.0
         GIT_SHALLOW TRUE
         GIT_PROGRESS TRUE)
 
